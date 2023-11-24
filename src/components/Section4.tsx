@@ -17,26 +17,8 @@ const Section4 = () => {
 					</a>
 				</span>
 				<span className="inline-block pl-2">
-					made by{" "}
-					<a
-						className="hover:text-white transition-colors duration-400"
-						href={`https://boidushya.com`}
-						target="_blank"
-						rel="noreferrer"
-						onMouseOut={() => setShow(false)}
-						onMouseOver={() => setShow(true)}
-					>
-						<RoughNotation
-							type="underline"
-							show={show}
-							strokeWidth={3}
-							animationDuration={400}
-							animationDelay={0}
-							color="rgb(253 224 71 / 0.25)"
-						>
-							<span>boidushya</span>
-						</RoughNotation>{" "}
-					</a>
+					made by Ronit Bhansali
+					
 				</span>
 			</p>
 		</footer>
